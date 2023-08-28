@@ -66,7 +66,11 @@ def ruler():
     print("\n"*3)
     print("""suma ingresa el numero faltante para sacando el calculo final de la suma \n\nEn la  resta igual solo que restando solo calculando con el resultado 
     """)
-  
+    op = int(input("Volver al menu (00): 
+    if op == 00:
+        menu()
+    else:               
+        print("1LugarParaProgramar")
 
 def suma():
     os.system("clear")
