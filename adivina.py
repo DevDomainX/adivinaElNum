@@ -155,6 +155,7 @@ def resta():
         except ValueError:
             print("Ingrese solo numeros enteros")            
 def menu():
+    os.system("clear")          
     print(Fore.GREEN+Style.BRIGHT+"""
 ::::'######::::::'###::::'##::::'##:'########:                  
 :::'##... ##::::'## ##::: ###::'###: ##.....::                  
